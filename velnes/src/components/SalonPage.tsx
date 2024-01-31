@@ -24,7 +24,7 @@ import { faHeartCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
  export const SalonPage = ({ users }: { users: HomePageProps[] }) => {
   const { id } = useParams<{ id: any }>();
-  const salonPage = users.find((user) => user.id === +id);
+  const salonPage = users.find((user) => user.id === id);
   const [currentSlide, setCurrentSlide] = useState(0);
   const { fave, addFaveEl, removeFaveEl } = useAppContext();
  

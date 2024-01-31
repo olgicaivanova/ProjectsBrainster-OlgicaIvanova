@@ -79,14 +79,7 @@ export const Search = ({ users }: { users: HomePageProps[] }) => {
     setValues(value);
   };
 
-  useEffect(() => {
-    getLocation();
-  }, []);
 
-  const getLocation = async () => {
-    const location = await axios.get("https://ipapi.co/json");
-    setCurrLocation(location.data.city);
-  };
 
   const handleCategoryChange = (event: any) => {
     setSelectedCategory(event.target.value);

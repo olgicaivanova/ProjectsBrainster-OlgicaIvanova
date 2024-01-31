@@ -13,7 +13,7 @@ export const RecentReviews = ({ users }: { users: HomePageProps[] }) => {
 
     const currentDate = new Date();
     const oneMonthAgo = new Date();
-    oneMonthAgo.setMonth(currentDate.getDate() - 7);
+    oneMonthAgo.setDate(currentDate.getDate() - 7);
 
     return reviewDate >= oneMonthAgo && reviewDate <= currentDate;
   };
@@ -31,7 +31,7 @@ export const RecentReviews = ({ users }: { users: HomePageProps[] }) => {
       <div className="space">
         {recentReviews &&
           recentReviews.map((user) =>
-            user.ratingOfSalon.slice(0, 4).map((review, index) => (
+            user.ratingOfSalon.map((review, index) => (
               <div className="editCard" key={index}>
                 <div className="card">
                   <div className="">

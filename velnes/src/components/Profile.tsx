@@ -3,10 +3,10 @@ import { Login } from "../types/types";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-export const Profile = ({ profile, id }: { profile: Login[]; id: any }) => {
+export const Profile = ({ profile, id }: { profile: Login[]; id: any}) => {
   const loggedInUser = localStorage.getItem("loggedUser");
   const userId = loggedInUser ? parseInt(loggedInUser) : null;
-  const user = userId ? profile.find((u) => u.id === userId) : null;
+  const user = userId ? profile.find((u) => u.id === parseInt(id)) : null;
 
   const navigate = useNavigate();
   const handleLogout = () => {

@@ -33,7 +33,7 @@
           "cleanliness": 3,
           "staff": 5,
           "id": 3,
-          "date": "11.08.2023",
+          "date": "26.09.2023",
           "user": "velnesImages/user.jpg",
           "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
         },
@@ -43,9 +43,29 @@
           "cleanliness": 3,
           "staff": 3,
           "id": 1693761195691,
-          "date": "2023-09-03T17:13:15.691Z",
+          "date": "2023-09-26T17:13:15.691Z",
           "user": "velnesImages/test1.jpg",
           "desc": "It's okay. Nothing special."
+        },
+        {
+          "name": "Kate",
+          "ambience": 5,
+          "cleanliness": 5,
+          "staff": 5,
+          "id": 1695910546838,
+          "date": "2023-09-28T14:15:46.838Z",
+          "user": "/velnesImages/test1.jpg",
+          "desc": "The salon is great!"
+        },
+        {
+          "name": "Matea",
+          "ambience": 1,
+          "cleanliness": 1,
+          "staff": 1,
+          "id": 1695918655215,
+          "date": "2023-09-28T16:30:55.215Z",
+          "user": "/velnesImages/test1.jpg",
+          "desc": "eee"
         }
       ],
       "aboutSalonInfo": [
@@ -196,6 +216,16 @@
           "date": "2023-09-03T16:15:48.996Z",
           "user": "velnesImages/test1.jpg",
           "desc": "k"
+        },
+        {
+          "name": "Kate",
+          "ambience": 3,
+          "cleanliness": 3,
+          "staff": 2,
+          "id": 1695909716425,
+          "date": "2023-09-28T14:01:56.425Z",
+          "user": "/velnesImages/test1.jpg",
+          "desc": "great!"
         }
       ],
       "aboutSalonInfo": [
@@ -619,100 +649,72 @@
   ],
   "login": [
     {
-      "email": "testemail1",
+      "email": "test1",
       "password": "pass1",
       "id": 1,
-      "name": "Kate",
-      "surname": "Wilson",
-      "number": "+39372 777 55 01",
+      "name": "Teona",
+      "surname": "Petrova",
+      "number": "+89099 999 99 00",
       "gender": "Female",
-      "birthDate": "28 November 2003",
-      "address": "Kavadarci, North Macedonia",
+      "birthDate": "23 May 2000",
+      "address": "Skopje, North Macedonia",
       "imgP": "/velnesImages/test1.jpg",
       "activeMemberships": [
         {
           "time": "6 months",
           "treatment": "Anti-stress Massage: 12 for the price of 10",
-          "sessions": "12",
+          "sessions": "10",
           "service": "1",
-          "price": "45",
+          "price": "80",
           "place": "Hair Creations"
         }
       ],
       "appointments": [
         {
-          "checked": "{\"5\":true,\"7\":true}",
-          "place": "Hair Creations",
-          "id": 2,
-          "address": "Str. Aminta III, Skopje, North Macedonia",
-          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
-          "totalPrice": 145,
-          "selectedEmployee": null,
-          "selectedDate": "2023-10-20T22:00:00.000Z",
-          "selectedTime": "16:22",
-          "appointmentId": 1693754884095
-        },
-        {
-          "checked": "{\"2\":true}",
-          "place": "Nail Creations",
-          "id": 1,
-          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
-          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
+          "checked": "Manicure",
           "totalPrice": 80,
-          "selectedEmployee": "Maria",
-          "selectedDate": "2023-12-29T23:00:00.000Z",
-          "selectedTime": "21:30",
-          "appointmentId": 1693761137595
+          "selectedEmployee": "Tea",
+          "selectedDate": "15.08.2023",
+          "selectedTime": "12:30",
+          "appointmentId": 2
         },
         {
-          "checked": "{\"1\":true,\"2\":true,\"3\":false}",
-          "place": "Nail Creations",
-          "id": 1,
-          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
-          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
-          "totalPrice": 145,
-          "selectedEmployee": "Maria",
-          "selectedDate": "2023-11-02T23:00:00.000Z",
-          "selectedTime": "13:39",
-          "appointmentId": 1694000680077
-        },
-        {
-          "checked": "{\"5\":true}",
+          "checked": "{\"4\":true,\"6\":true,\"7\":true}",
           "place": "Hair Creations",
           "id": 2,
           "address": "Str. Aminta III, Skopje, North Macedonia",
           "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
-          "totalPrice": 80,
-          "selectedEmployee": "Tea",
-          "selectedDate": "2023-11-03T23:00:00.000Z",
-          "selectedTime": "12:30",
-          "appointmentId": 1694272386326
+          "totalPrice": 180,
+          "selectedEmployee": "Luna",
+          "selectedDate": "2023-12-19T23:00:00.000Z",
+          "selectedTime": "09:00",
+          "appointmentId": 1694182415051
         },
         {
-          "checked": "{\"4\":true,\"7\":true}",
-          "place": "Hair Creations",
-          "id": 2,
-          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "checked": "{\"1\":true,\"3\":false,\"7\":true}",
+          "place": "Nail Creations",
+          "id": 1,
+          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
           "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
           "totalPrice": 130,
-          "selectedEmployee": "Tea",
-          "selectedDate": "2023-10-13T22:00:00.000Z",
-          "selectedTime": "14:30",
-          "appointmentId": 1694337565344
+          "selectedEmployee": "Sandra",
+          "selectedDate": "2023-12-22T23:00:00.000Z",
+          "selectedTime": "16:50",
+          "appointmentId": 1694337480193
         }
       ],
       "paymentMethods": [
         {
           "paymentCard": "Master Card",
-          "cardNumber": "**** **** **** 5678",
-          "expiration": "5/22",
-          "cvv": "551"
+          "cardNumber": "**** **** **** 1234",
+          "expiration": "8/17",
+          "cvv": "552"
         },
         {
-          "cardNumber": "12243543232",
           "paymentCard": "",
-          "expiration": "3/21",
-          "cvv": "123"
+          "cardNumber": "131391139183",
+          "expiration": "3/23",
+          "cvv": "323"
         }
       ]
     },
@@ -747,30 +749,6 @@
           "appointmentId": 2
         },
         {
-          "checked": "{\"1\":true,\"2\":true}",
-          "place": "Nail Creations",
-          "id": 1,
-          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
-          "totalPrice": 145,
-          "selectedEmployee": "Sandra",
-          "selectedDate": "2023-10-26T22:00:00.000Z",
-          "selectedTime": "12:00",
-          "appointmentId": 1694181591074
-        },
-        {
-          "checked": "{\"4\":true,\"6\":true,\"7\":true}",
-          "place": "Hair Creations",
-          "id": 2,
-          "address": "Str. Aminta III, Skopje, North Macedonia",
-          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
-          "totalPrice": 180,
-          "selectedEmployee": "Luna",
-          "selectedDate": "2023-12-19T23:00:00.000Z",
-          "selectedTime": "09:00",
-          "appointmentId": 1694182415051
-        },
-        {
           "checked": "{\"1\":true,\"3\":false,\"7\":true}",
           "place": "Nail Creations",
           "id": 1,
@@ -781,6 +759,18 @@
           "selectedDate": "2023-12-22T23:00:00.000Z",
           "selectedTime": "16:50",
           "appointmentId": 1694337480193
+        },
+        {
+          "checked": "{\"5\":true,\"7\":true}",
+          "place": "Hair Creations",
+          "id": 2,
+          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 145,
+          "selectedEmployee": "Tea",
+          "selectedDate": "2023-11-09T23:00:00.000Z",
+          "selectedTime": "19:30",
+          "appointmentId": 1694352171678
         }
       ],
       "paymentMethods": [
@@ -797,6 +787,6 @@
           "cvv": "2112"
         }
       ]
-    }
+    } 
   ]
 }
