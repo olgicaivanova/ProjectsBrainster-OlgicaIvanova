@@ -1,0 +1,673 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  font-family: "Reenie Beanie";
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(255, 227, 205);
+}
+
+.b-shadow {
+  box-shadow: 0px 7px 20px -6px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 7px 20px -6px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 7px 20px -6px rgba(0, 0, 0, 0.6);
+}
+
+.container-card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.wrapperOne {
+  height: 100%;
+  transform: translateY(20%);
+}
+
+.top {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: rgb(177, 68, 68);
+  background: rgb(212, 181, 156);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+  transition: 0.5s ease;
+}
+
+.bottom {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: rgb(212, 181, 156);
+  background: rgb(177, 68, 68);
+  clip-path: polygon(0 0, 100% 50%, 100% 100%, 0 100%);
+  transition: 0.5s ease;
+  transform: translateY(-55%);
+}
+
+.p-top {
+  position: absolute;
+  top: 20%;
+  left: 75px;
+}
+
+.bottom:hover {
+  position: absolute;
+  filter: drop-shadow(-1px 5px 23px rgba(0, 0, 0, 0.66));
+  color: white;
+  transform: translateY(-55%) scale(1.1);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.top:hover {
+  transform: scale(1.1);
+  color: white;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#topArtist {
+  position: absolute;
+  height: 30px;
+  top: 40%;
+  left: 100px;
+  width: 130px;
+  background-color: transparent;
+  border: 1px solid rgb(177, 68, 68);
+}
+
+.p-bottom {
+  position: absolute;
+  bottom: 0;
+  top: 60%;
+  left: 50px;
+}
+.p-bottom a {
+  color: rgb(212, 181, 156);
+}
+
+.paragraph {
+  font-size: 30px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-300px * 5));
+  }
+}
+.wrapper-one,
+.wrapper-two {
+  animation: scroll 60s linear infinite;
+  width: calc(300px * 14);
+  display: flex;
+}
+
+.wrapper-two {
+  animation-direction: reverse;
+}
+
+.banner {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./images/Bricks.png) no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background-color: rgb(177, 68, 68);
+  color: white;
+  width: 200px;
+}
+
+.h2 {
+  color: rgb(177, 68, 68);
+}
+
+#render {
+  position: relative;
+}
+.fa-sliders,
+.fa-check {
+  background-color: rgb(247, 65, 65);
+  margin: 15px;
+  color: rgb(255, 227, 205);
+  padding: 10px;
+  position: absolute;
+  position: fixed;
+  font-size: 50px;
+  bottom: 0;
+  z-index: 999;
+  right: 0;
+}
+
+.fa-sliders {
+  transform: rotate(270deg);
+}
+
+option {
+  background-color: rgb(177, 68, 68);
+}
+
+.sidenav {
+  background-color: rgb(177, 68, 68);
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  transition: 0.5s;
+}
+
+.fa-xmark {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  right: 0;
+  font-size: 80px;
+  margin-left: 50px;
+  color: rgb(255, 227, 205);
+}
+
+.content {
+  color: rgb(255, 227, 205);
+  margin: 40px;
+  position: relative;
+}
+
+#visitorListing select {
+  margin: 30px 0px;
+  width: 115px !important;
+}
+#visitorListing label {
+  margin-bottom: 30px;
+}
+
+.borderDiv {
+  border-bottom: 2px solid rgb(255, 227, 205);
+  padding: 20px;
+}
+
+.inputEdit,
+textarea {
+  width: 100px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 227, 205);
+  padding: 5px;
+  border-radius: 5px;
+  /* color:rgb(255, 227, 205); */
+  color: #000;
+}
+
+#inputType,
+#inputArtist {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+i {
+  cursor: pointer;
+}
+.flex-left {
+  position: absolute;
+  left: 100px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logoPages {
+  width: 13%;
+  position: absolute;
+  left: 8px;
+  top: 13px;
+}
+header {
+  position: relative;
+  height: 70px;
+}
+
+#artist {
+  text-align: center;
+}
+
+.page {
+  display: none;
+}
+
+#visitorHomePage,
+#artistCaptureImage {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.cont {
+  background-color: rgb(177, 68, 68);
+  margin: 20px 0px;
+}
+
+.scroll {
+  margin: 20px !important;
+  padding: 0 !important;
+}
+.scroll img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.widgets {
+  color: #fff;
+}
+
+#soldItems,
+#income {
+  font-size: 40px;
+}
+.soldItems p,
+.income p {
+  margin: 0;
+}
+.liveAuc {
+  background-color: orangered;
+  margin: 13px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: none;
+}
+
+.soldItems,
+.income {
+  width: 50%;
+  background-color: rgb(177, 68, 68);
+  padding: 15px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#artist,
+#artistItem,
+#artistAuction,
+.streetArt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: rgb(177, 68, 68);
+}
+
+.streetArt {
+  font-size: 30px;
+}
+
+.navMenu,
+.navMenuTwo,
+.navMenuThree {
+  display: none;
+  background-color: rgb(177, 68, 68);
+}
+ul li a {
+  color: white;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  margin: 0 !important;
+}
+
+.addNew {
+  text-align: center;
+}
+
+.addEl {
+  border: 1px dashed rgb(177, 68, 68);
+  color: rgb(177, 68, 68);
+}
+.addEl {
+  padding: 30px;
+}
+#addBtn {
+  background-color: rgb(219, 73, 20);
+}
+
+#closeBtn {
+  background-color: #ffffffe3;
+  color: black;
+}
+
+.btns {
+  justify-content: space-around;
+}
+
+.itemsEdit,
+textarea {
+  width: 100%;
+}
+
+.fa-camera {
+  font-size: 30px;
+}
+
+.contentPublished {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carouselFlex {
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.carouselPink {
+  background-color: rgb(233, 143, 158);
+  border: 2px solid rgb(230, 113, 133);
+  width: 200px;
+  height: 150px;
+  font-size: 10px;
+  position: relative;
+}
+
+.carouselTransparent {
+  background-color: transparent;
+  color: brown;
+}
+
+.centerBorder {
+  border: 1px solid rgb(230, 113, 133);
+  height: 200px;
+}
+@media (min-width: 1024px) {
+  .img-round {
+    left: 35% !important;
+  }
+}
+
+.img-round {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  position: absolute;
+  bottom: 130px;
+  left: 27%;
+  border: 2px solid rgb(230, 113, 133);
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: rgb(219, 73, 20);
+}
+
+.btn-blue {
+  background-color: rgb(43, 43, 245);
+  border: 1px solid rgb(43, 43, 245);
+}
+
+.buttonsArt {
+  background-color: rgb(177, 68, 68);
+}
+
+.btn-red {
+  background-color: rgb(219, 73, 20);
+  border: 1px solid rgb(219, 73, 20);
+}
+
+.btn-white {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.btn-green {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.btn-edit {
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.fa-bars,
+.fa-gavel {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  font-size: 30px;
+  color: rgb(177, 68, 68);
+}
+.btnChart:not(:last-child) {
+  margin-right: 10px;
+  padding: 5px 0px;
+}
+.btnChart:hover {
+  background-color: orangered;
+  color: white;
+}
+.chartBtnSpace {
+  padding: 15px;
+}
+
+.chartBtnSpace p {
+  font-size: 20px;
+  color: rgb(177, 68, 68);
+}
+.card:nth-of-type(even) {
+  color: pink;
+  background-color: rgb(177, 68, 68);
+}
+.card:nth-of-type(odd) {
+  background-color: pink;
+  color: rgb(177, 68, 68);
+}
+
+.priceTag {
+  border-radius: 5px;
+  color: rgb(177, 68, 68);
+  background-color: rgb(245, 170, 170);
+  font-size: 20px;
+  padding: 2px;
+  width: 15%;
+  text-align: center;
+}
+
+h5 {
+  font-size: 25px;
+}
+.cameraCapture {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-size: 60px;
+  transform: translate(-50%, -50%);
+  color: rgb(177, 68, 68);
+}
+
+a:hover {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+@media (min-width: 1020px) {
+  .cameraCapture {
+    top: 90%;
+  }
+  .logoPages {
+    width: 7%;
+  }
+}
+
+@media (max-width: 425px) {
+  .logoPages {
+    width: 22%;
+  }
+  .cameraCapture {
+    top: 40%;
+  }
+}
+.addEl {
+  margin: 0;
+}
+video {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#capturedImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card img {
+  height: 263.63px !important;
+}
+
+.imageFlex {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.imageFlex img {
+  width: 10%;
+}
+
+@media (max-width: 425px) {
+  .imageFlex img {
+    width: 30%;
+  }
+}
+
+.imgWidth {
+  width: 90%;
+}
+
+.artPrice {
+  justify-content: space-between;
+}
+
+canvas {
+  display: none;
+}
+
+#timerID {
+  font-size: 35px;
+  text-align: center;
+  margin: 20px;
+  color: rgb(177, 68, 68);
+}
+
+#biddingHistory li,
+#highestBid {
+  list-style-type: none;
+  color: rgb(177, 68, 68);
+  padding: 5px;
+}
+
+.btnBid {
+  padding: 1px 20px !important;
+}
+
+.publish {
+  background-color: white;
+  color: black;
+}
+
+.unpublish {
+  background-color: green;
+  color: white;
+}
+
+#capturedImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.snapshot {
+  position: relative;
+}
+
+.cameraStop,
+.pShot {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(243, 196, 196);
+  display: block;
+}
+
+.cameraStop {
+  top: 40% !important;
+  font-size: 50px;
+}
+
+#save {
+  color: white;
+  border: 1px solid white;
+}
+
+.buttonsArt {
+  padding: 15px;
+  background-color: rgb(202 102 102);
+}
+
+.artistName {
+  font-size: 30px;
+}
+
+button {
+  overflow: hidden;
+}
+
+.snapshot {
+  border: 1px dotted white;
+  height: 300px;
+}
+
+.bidding {
+  display: none;
+}
+
+.auctionFalse {
+  color: rgb(202 102 102);
+  margin: 20px;
+  font-size: 20px;
+}
