@@ -1,0 +1,795 @@
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: Yeseva One;
+}
+@media (min-width: 1024px) and (max-width: 4000px){
+  .sliderIcon, .map {
+    right: 540px !important;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100px;
+}
+.filterTitle {
+  position: absolute;
+ left: 185px;
+}
+.searchContainer {
+  position: relative;
+}
+.venueHP {
+  top: 35px;
+  font-size: 13px;
+  color: rgba(119, 130, 140, 1);
+}
+.venueHP span{
+  margin:0px 4px;
+}
+ .venueHP, .h6HP {
+  position: absolute;
+  left: 48px;
+}
+
+.h6HP  {
+  top: 14px;
+  color: #000;
+}
+
+.magnifyGlass {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  color: #000;
+}
+.imgLogo {
+  display: flex;
+  width: 114px;
+  height: 32px;
+  padding: 0px 0.288px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.editIcon {
+  width: 52px;
+  height: 52px;
+  color: #4d2a1f;
+  background: #ffd1c1;
+  border-radius: 12px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.homePageBackground {
+  background: linear-gradient(
+    to bottom,
+    #ffc6b2,
+    #ffc8b5,
+    #ffcab7,
+    #ffccba,
+    #ffcebd,
+    #ffd1c8,
+    #ffd5d3,
+    #ffdadc,
+    #fde3eb,
+    #fbedf6,
+    #fbf7fc,
+    #ffffff
+  );
+  height: 100vh;
+}
+
+.descWidth {
+  width: 100%;
+  height: 100px;
+  overflow:auto;
+}
+
+h1 {
+  font-weight: normal;
+  font-family: Yeseva One;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bolder;
+  color: #4d2a1f;
+  width: 100%;
+  padding: 20px;
+  margin: 40px 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+}
+
+.seachBar, .form-control {
+  display: flex;
+  width: 342px;
+height: 66px;
+  padding: 12px 12px 12px 20px !important;
+  background-color: rgba(255, 255, 255, 1)!important;
+  align-items: center;
+  gap: 28x;
+  border-radius: 999999px !important;
+  border: 0.5px solid #e5e5e5;
+  background: #fff;
+  box-shadow: 0px 2px 18px 0px rgba(255, 141, 103, 0.2);
+}
+
+.categories {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 26px;
+  margin: 50px 0px;
+}
+
+.editIcons img {
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.lengthSalons {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  border-top: 2px solid lightgray;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.editIcons p {
+  text-align: center;
+  width: 100%;
+  font-size: 10px;
+}
+
+.input, .inputSearch, .react-datepicker-wrapper {
+  width: 100% !important; 
+}
+
+.inputSearch {
+height: 62px;
+padding: 10px 8px 10px 16px;
+border-radius: 12px;
+border: 1px solid lightgray;
+gap: 13px;
+}
+
+.date {
+margin-bottom: 15px;
+}
+
+
+.react-time-picker__wrapper {
+  border: none !important;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -50px;
+  font-size: 30px;
+}
+footer .socials a {
+  margin-right: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+footer .socials p {
+  margin-top: 35px;
+}
+.posRel {
+  position: relative;
+  height: 590px;
+  margin-bottom: 45px;
+}
+.div {
+  background-color: rgba(255, 249, 247, 1);
+
+}
+.recommended {
+  padding: 20px;
+}
+
+.recommended h2 {
+  margin-left: 20px;
+}
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: white;
+}
+
+.categoryList div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.img {
+  border-radius: 12px;
+}
+
+.stars {
+  width: 2%;
+  height: 2%;
+}
+.mainCard {
+  border: 1px solid lightgrey;
+  width: 560px;
+  height: 315px;
+  border-radius: 12px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0px 20px;
+}
+
+.mainCard img {
+  height: 200px;
+  width: 560px;
+  object-fit: cover;
+}
+
+.cardSearch {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  flex: 0 1 20%;
+}
+
+.reviews {
+  display: flex;
+}
+
+.reviews span {
+  margin-right: 5px;
+}
+
+.colorOr {
+  color: #ff8d67;
+}
+.caption {
+  padding: 10px;
+}
+
+.caption h2,
+h4 {
+  padding: 5px 0px;
+  margin: 0px !important;
+}
+
+.user {
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.btn {
+  color: white !important;
+  background-color: #ff8d67 !important;
+  padding: 12px 16px 12px 12px;
+  border-radius: 8px;
+  gap: 4px;
+  width:138px;
+  height:50px;
+
+}
+
+footer {
+  color: #fff;
+  height: 500px;
+  background-color: #4d2a1f;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer ul li {
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+}
+
+.ml-3 {
+  margin-left: 50px;
+}
+
+.editCard {
+  width: 288px;
+  display: inline-block;
+}
+
+
+
+.editCard:not(:last-child) {
+  margin-right: 20px;
+}
+
+.space {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.containerX {
+  overflow-x: auto;
+}
+
+.recentReviews {
+  display: flex;
+}
+
+.recentReviews,
+.buttonsEdit,
+.seeMore,
+.treatmentsSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.reviewInfo {
+  margin-top: 30px;
+  flex: 1;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.stars {
+  margin-right: 50px;
+}
+
+.text-muted {
+  color: lightgrey;
+  font-size: 12px;
+}
+
+select {
+  border-radius: 12px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.inputFlex {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 18px 0px rgba(255, 141, 103, 0.2);
+
+}
+
+.text-right {
+  text-align: right;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+.muted {
+  color: lightgray;
+}
+.search {
+  text-decoration: none;
+  color: white;
+}
+.searchBg{
+  background-color: rgba(255, 249, 247, 1);
+  height: 100vh;
+}
+.buttonsEdit,
+.map {
+  position: fixed;
+  bottom: 0;
+  width: 100% !important;
+  padding: 15px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+.la, .salonPage {
+  position: relative;
+}
+
+.arrowSalon {
+  left: 20px;
+}
+
+.heartIcon {
+   right: 20px
+}
+
+.slider-wrapper {
+  overflow: hidden !important;
+}
+.arrowSalon, .shareIcon, .heartIcon {
+  position: absolute;
+  top: 90px;
+  z-index: 999;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+}
+.shareIcon {
+  right: 80px
+}
+.profile  a {
+  color: black;
+}
+.sliderIcon {
+  position: absolute;
+  right: 60px;
+  top: 16px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+.arrowLeftLong {
+  margin-right: 10px;
+  color: black;
+}
+.relativeArrorDiv {
+  position: relative;
+}
+
+.form-control {
+  padding-left: 48px !important;
+}
+.faMagnifyingGlass {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  color: gray;
+  font-size: 20px
+}
+.arrowLeft {
+  position: absolute;
+  top: 7px;
+  color: black;
+  left: 0;
+}
+.al {
+  position: absolute;
+  right: 60px;
+  top: 109px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+.linkBlack {
+  color: black;
+}
+.map {
+  background-color: #4d2a1f;
+  right : 157px;
+  bottom: 20px;
+  color: white;
+  width: 22% !important;
+  border-radius: 25px;
+  border: 1px solid #4d2a1f;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationIcon {
+  color: #ff8d67;
+  font-size: 50px;
+}
+
+.flexEnd {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.borderTop {
+  border-top: 3px solid gray;
+  width: 3%;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+.form {
+  position: relative;
+  border-top: 1px solid lightgrey;
+  border-radius: 12px;
+  padding-top: 15px;
+}
+
+
+.bg-light-pink,
+.basicInfo,
+.notifications {
+  display: flex;
+  justify-content: space-between;
+}
+
+.membershipCard {
+  background-color: rgba(255, 243, 240, 1);
+  border-radius: 12px;
+}
+
+.leaflet-popup-content {
+  margin: 0px !important;
+}
+
+
+.bg-light-pink, .manageDiv {
+  border-radius: 20px;
+  background-color: rgba(255, 243, 240, 1);
+  padding: 20px;
+}
+
+.colorDarkPink {
+  color: #ff8d67;
+}
+.aHref {
+  color: black;
+  text-decoration: none;
+}
+.deleteProfile {
+  background-color: transparent;
+  border: 1px solid #ff8d67;
+  border-radius: 8px;
+  padding: 10px 25px;
+}
+
+.addNewBtn {
+  width: 50px;
+  text-align: center;
+  height: 52px;
+  font-size: 30px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  margin-right: 7px;
+  margin-top: 1.5px;
+}
+
+.bg-light-pink h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.borderRadImg {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.paymentCard {
+  background-color: rgba(245, 246, 247, 1);
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 12px;
+  align-items: center;
+}
+
+.paymentCard p {
+  margin: 0;
+}
+
+.cancelBtn {
+  color: black;
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+}
+
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.card-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 50%;
+  animation: slideIn 0.3s ease-out;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.carousel img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.carousel .carousel-status {
+ display: none;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-count p {
+  background-color: rgba(0,0, 0, 0.6);
+  border-radius: 4px;
+  position: absolute;
+  top: 240px;
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ padding: 10px 15px;
+  margin: 10px;
+  font-size: 10px;
+  height: 5px;
+  color: #fff;
+}
+
+.infoBoxSalon h2 {
+  text-align: left;
+}
+
+.linkDarkPink {
+  color: #ff8d67;
+  text-decoration: underline !important;
+}
+
+.ourTeam:not(:last-child) {
+   margin-right: 20px;
+}
+.ourTeam img {
+   border-radius: 50%;
+   width: 200px;
+}
+
+.teamInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnTransparent {
+  background-color: transparent !important;
+  border: 1px solid #ff8d67 !important;
+  font-weight: bold;
+  color: black !important;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color:#ff8d67 !important; 
+}
+
+.plusIcon {
+  color: #ff8d67;
+  background-color: rgba(255, 255, 255, 1);
+}
+.checkIcon {
+  background-color: #ff8d67;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid #ff8d67 !important;
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.navigation button {
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.navigation h2 {
+  margin: 0;
+}
+
+.textInfo {
+  background-color: rgba(255, 243, 240, 1);
+  color: #ff8d67;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.greyText {
+  color: rgba(119, 130, 140, 1);
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.appointmentImg {
+margin-right: 15px;
+border-radius: 12px;
+width: 74px;
+height: 67px;
+object-fit: cover;
+}
+
+textarea {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px;
+}
+.star label {
+  margin-right: 15px;
+  color: #ff8d67;
+}
+.filterPopUp {
+  z-index: 9999;
+  background-color: white !important;
+  border-radius: 30px;
+  border-top: 1px solid lightgray;
+  height: 100vh;
+  overflow : auto;
+}
+.sliderPrice {
+  color: lightgray !important;
+}
+.h1HP {
+  font-size: 48px;
+  font-weight: bold;
+height: 280px;
+}
+.faX {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.fave {
+  position: absolute;
+  top: 10px;
+  color: #ff8d67;
+  right: 15px;
+  font-size: 30px;
+}
+
+.editCard {
+  position: relative;
+}

@@ -1,0 +1,802 @@
+{
+  "users": [
+    {
+      "email": "test1@gmail.com",
+      "id": 1,
+      "title": "Nail Creations",
+      "subtitle": "Nail Salon",
+      "info": "Please arrive at least 10 minutes before your appointment",
+      "ratingOfSalon": [
+        {
+          "name": "Jessica",
+          "ambience": 3.5,
+          "cleanliness": 3.5,
+          "staff": 5,
+          "id": 1,
+          "date": "09.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Deana",
+          "ambience": 4.5,
+          "cleanliness": 5,
+          "staff": 5,
+          "id": 2,
+          "date": "05.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Monica",
+          "ambience": 5,
+          "cleanliness": 3,
+          "staff": 5,
+          "id": 3,
+          "date": "11.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kate",
+          "ambience": 3,
+          "cleanliness": 3,
+          "staff": 3,
+          "id": 1693761195691,
+          "date": "2023-09-03T17:13:15.691Z",
+          "user": "velnesImages/test1.jpg",
+          "desc": "It's okay. Nothing special."
+        }
+      ],
+      "aboutSalonInfo": [
+        {
+          "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo.",
+          "openingHours": [
+            {
+              "monday": "10:00 - 18:00",
+              "tuesday": "10:00 - 18:00",
+              "wednesday": "10:00 - 18:00",
+              "thursday": "10:00 - 18:00",
+              "friday": "10:00 - 18:00",
+              "saturday": "Closed"
+            }
+          ],
+          "contact": "(603) 555-0123",
+          "additionalInfo": [
+            {
+              "pay": "Pay by card",
+              "parking": "Parking space",
+              "wifi": "Wi-Fi",
+              "access": "Wheelchair accessible",
+              "child": "Child friendly",
+              "pets": "Pets allowed"
+            }
+          ],
+          "accordion": [
+            {
+              "paymentolicy": "This business enforces a cancellation policy on select services and reserves the right to charge a cancellation fee for any no-shows and late cancellations. Note that you may be considered a no-show if you are late for your scheduled appointment, and it is up to the business to decide whether the fee is applied.The cancellation fee is only charged if you violate the terms of the cancellation policy. If you show up to the appointment on time or cancel before the deadline listed on your confirmation page, no cancellation fee is withdrawn from your account. As the fee is not charged for successful appointments, you will be expected to pay for your appointment in full once the service is completed."
+            },
+            {
+              "brandsUsed": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo."
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "id": 1,
+          "typeOfTreatment": "Manicure gellack French",
+          "price": 65,
+          "time": "30",
+          "details": "Have your Mani Full Works in our Shoreditch Nails Polish 'Colour of the Month' and take the shade home for free. Ask in-store or by signing up to our newsletter to find out the 'Colour of the Month'."
+        },
+        {
+          "id": 2,
+          "typeOfTreatment": "Manicure, strengthening with gel base, gellack (including removal of old strengthening)",
+          "price": 80,
+          "time": "30",
+          "details": "Have your Mani Full Works in our Shoreditch Nails Polish 'Colour of the Month' and take the shade home for free. Ask in-store or by signing up to our newsletter to find out the 'Colour of the Month'."
+        },
+        {
+          "id": 3,
+          "typeOfTreatment": "Gel",
+          "price": 50,
+          "time": "30",
+          "details": "Have your Mani Full Works in our Shoreditch Nails Polish 'Colour of the Month' and take the shade home for free. Ask in-store or by signing up to our newsletter to find out the 'Colour of the Month'."
+        }
+      ],
+      "team": [
+        {
+          "name": "Maria",
+          "proffesion": "Nail specialist",
+          "rating": 4,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Sandra",
+          "proffesion": "Nail specialist",
+          "rating": 5,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Khloe",
+          "proffesion": "Nail specialist",
+          "rating": 3,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        }
+      ],
+      "place": "Nail Salon Skopje",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "moreImages": [
+        {
+          "url": "https://cdn1.treatwell.net/images/view/v2.i5059481.w720.h480.x57F4036F/",
+          "caption": "Image 1"
+        },
+        {
+          "url": "https://www.rd.com/wp-content/uploads/2020/06/GettyImages-1139132195.jpg",
+          "caption": "Image 2"
+        },
+        {
+          "url": "https://cdn.concreteplayground.com/content/uploads/2022/04/Telleish-Pic-1.jpg-Salon.jpeg",
+          "caption": "Image 3"
+        }
+      ],
+      "city": "Skopje",
+      "adress": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
+      "date": "02.08.2023",
+      "time": "14:00 PM",
+      "company": "Nails salon Skopje",
+      "treatment": "Nails",
+      "latitude": 41.9821,
+      "longitude": 21.5717
+    },
+    {
+      "email": "test2@gmail.com",
+      "id": 2,
+      "title": "Hair Creations",
+      "subtitle": "Hair Salon",
+      "info": "Please arrive at least 10 minutes before your appointment",
+      "ratingOfSalon": [
+        {
+          "name": "Lea",
+          "ambience": 5,
+          "cleanliness": 4.5,
+          "staff": 5,
+          "id": 4,
+          "date": "12.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Klimentina",
+          "ambience": 4.5,
+          "cleanliness": 3.5,
+          "staff": 5,
+          "id": 5,
+          "date": "13.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Sandra",
+          "ambience": 5,
+          "cleanliness": 4.5,
+          "staff": 4,
+          "id": 6,
+          "date": "14.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kate",
+          "ambience": 1,
+          "cleanliness": 1,
+          "staff": 1,
+          "id": 1693757748996,
+          "date": "2023-09-03T16:15:48.996Z",
+          "user": "velnesImages/test1.jpg",
+          "desc": "k"
+        }
+      ],
+      "aboutSalonInfo": [
+        {
+          "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo.   ",
+          "openingHours": [
+            {
+              "monday": "10:00 - 18:00",
+              "tuesday": "10:00 - 18:00",
+              "wednesday": "10:00 - 18:00",
+              "thursday": "10:00 - 18:00",
+              "friday": "10:00 - 18:00",
+              "saturday": "Closed"
+            }
+          ],
+          "contact": "(555) 555-0123",
+          "additionalInfo": [
+            {
+              "pay": "Pay by card",
+              "parking": "Parking space",
+              "wifi": "Wi-Fi",
+              "access": "Wheelchair accessible",
+              "child": "Child friendly",
+              "pets": "Pets allowed"
+            }
+          ],
+          "accordion": [
+            {
+              "paymentolicy": "This business enforces a cancellation policy on select services and reserves the right to charge a cancellation fee for any no-shows and late cancellations. Note that you may be considered a no-show if you are late for your scheduled appointment, and it is up to the business to decide whether the fee is applied.The cancellation fee is only charged if you violate the terms of the cancellation policy. If you show up to the appointment on time or cancel before the deadline listed on your confirmation page, no cancellation fee is withdrawn from your account. As the fee is not charged for successful appointments, you will be expected to pay for your appointment in full once the service is completed."
+            },
+            {
+              "brandsUsed": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo."
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "id": 4,
+          "typeOfTreatment": "Hair... something",
+          "price": 65,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 5,
+          "typeOfTreatment": "Hair... something",
+          "price": 80,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 6,
+          "typeOfTreatment": "Hair... something",
+          "price": 50,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        }
+      ],
+      "team": [
+        {
+          "name": "Tea",
+          "proffesion": "Hair specialist",
+          "rating": 5,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Luna",
+          "proffesion": "Hair specialist",
+          "rating": 3,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Lea",
+          "proffesion": "Hair specialist",
+          "rating": 5,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        }
+      ],
+      "place": "Hair Salon Skopje",
+      "img": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+      "moreImages": [
+        {
+          "url": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
+          "caption": "Image 1"
+        },
+        {
+          "url": "https://www.rd.com/wp-content/uploads/2020/06/GettyImages-1139132195.jpg",
+          "caption": "Image 2"
+        },
+        {
+          "url": "https://cdn.concreteplayground.com/content/uploads/2022/04/Telleish-Pic-1.jpg-Salon.jpeg",
+          "caption": "Image 3"
+        }
+      ],
+      "city": "Skopje",
+      "adress": "Str. Aminta III, Skopje, North Macedonia",
+      "date": "03.08.2023",
+      "time": "13:00 PM",
+      "company": "Hair and beauty salon Skopje",
+      "treatment": "Hair",
+      "latitude": 41.981,
+      "longitude": 21.4289
+    },
+    {
+      "email": "test3@gmail.com",
+      "id": 3,
+      "title": "Hair Creations",
+      "subtitle": "Hair Salon",
+      "info": "Please arrive at least 10 minutes before your appointment",
+      "ratingOfSalon": [
+        {
+          "name": "Leonora",
+          "ambience": 3.5,
+          "cleanliness": 3,
+          "staff": 5,
+          "id": 22,
+          "date": "20.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kate",
+          "ambience": 5,
+          "cleanliness": 2.5,
+          "staff": 4,
+          "id": 23,
+          "date": "24.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kika",
+          "ambience": 5,
+          "cleanliness": 3,
+          "staff": 5,
+          "id": 24,
+          "date": "25.08.2023",
+          "user": "/velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kia",
+          "ambience": 5,
+          "cleanliness": 5,
+          "staff": 5,
+          "id": 25,
+          "date": "26.08.2023",
+          "user": "/velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Kate",
+          "ambience": 5,
+          "cleanliness": 2,
+          "staff": 3,
+          "id": 26,
+          "date": "27.08.2023",
+          "user": "/velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        }
+      ],
+      "aboutSalonInfo": [
+        {
+          "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo.",
+          "openingHours": [
+            {
+              "monday": "10:00 - 18:00",
+              "tuesday": "10:00 - 18:00",
+              "wednesday": "10:00 - 18:00",
+              "thursday": "10:00 - 18:00",
+              "friday": "10:00 - 18:00",
+              "saturday": "10:00 - 18:00",
+              "sunday": "Closed"
+            }
+          ],
+          "contact": "(603) 555-0123",
+          "additionalInfo": [
+            {
+              "pay": "Pay by card",
+              "parking": "Parking space",
+              "wifi": "Wi-Fi",
+              "access": "Wheelchair accessible",
+              "child": "Child friendly",
+              "pets": "Pets allowed"
+            }
+          ],
+          "accordion": [
+            {
+              "paymentolicy": "This business enforces a cancellation policy on select services and reserves the right to charge a cancellation fee for any no-shows and late cancellations. Note that you may be considered a no-show if you are late for your scheduled appointment, and it is up to the business to decide whether the fee is applied.The cancellation fee is only charged if you violate the terms of the cancellation policy. If you show up to the appointment on time or cancel before the deadline listed on your confirmation page, no cancellation fee is withdrawn from your account. As the fee is not charged for successful appointments, you will be expected to pay for your appointment in full once the service is completed."
+            },
+            {
+              "brandsUsed": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo."
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "id": 7,
+          "typeOfTreatment": "Hair... something",
+          "price": 65,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 8,
+          "typeOfTreatment": "Hair... something",
+          "price": 80,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 9,
+          "typeOfTreatment": "Hair... something",
+          "price": 50,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        }
+      ],
+      "place": "Hair Salon Skopje",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i1703543.w720.h480.x8C63EEB6/",
+      "moreImages": [
+        {
+          "url": "https://www.salonsdirect.com/blog/wp-content/uploads/2017/02/5-Simple-Steps-To-Update-Your-Salon-Interior-For-Spring.jpg",
+          "caption": "Image 1"
+        },
+        {
+          "url": "https://www.rd.com/wp-content/uploads/2020/06/GettyImages-1139132195.jpg",
+          "caption": "Image 2"
+        },
+        {
+          "url": "https://cdn.concreteplayground.com/content/uploads/2022/04/Telleish-Pic-1.jpg-Salon.jpeg",
+          "caption": "Image 3"
+        }
+      ],
+      "team": [
+        {
+          "name": "Marta",
+          "proffesion": "Hair specialist",
+          "rating": 5,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Martina",
+          "proffesion": "Hair specialist",
+          "rating": 2,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Leona",
+          "proffesion": "Hair specialist",
+          "rating": 2,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        }
+      ],
+      "city": "Skopje",
+      "adress": "Boulevard Jane Sandanski, Skopje, North Macedonia",
+      "date": "04.08.2023",
+      "time": "14:00 PM",
+      "company": "Hair and beauty salon Skopje",
+      "treatment": "Hair",
+      "latitude": 42.0058,
+      "longitude": 21.4194
+    },
+    {
+      "email": "test3@gmail.com",
+      "id": 4,
+      "title": "Nail Creations",
+      "subtitle": "Nail Salon",
+      "info": "Please arrive at least 10 minutes before your appointment",
+      "ratingOfSalon": [
+        {
+          "name": "Jessica",
+          "ambience": 3.5,
+          "cleanliness": 2.5,
+          "staff": 5,
+          "id": 7,
+          "date": "15.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Deana",
+          "ambience": 4.5,
+          "cleanliness": 2.5,
+          "staff": 5,
+          "id": 8,
+          "date": "16.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        },
+        {
+          "name": "Monica",
+          "ambience": 5,
+          "cleanliness": 3,
+          "staff": 5,
+          "id": 9,
+          "date": "17.08.2023",
+          "user": "velnesImages/user.jpg",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque porro, non culpa iure esse provident blanditiis dicta? Officiis, dolore ullam!"
+        }
+      ],
+      "aboutSalonInfo": [
+        {
+          "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo.",
+          "openingHours": [
+            {
+              "monday": "10:00 - 18:00",
+              "tuesday": "10:00 - 18:00",
+              "wednesday": "10:00 - 18:00",
+              "thursday": "10:00 - 18:00",
+              "friday": "10:00 - 18:00",
+              "saturday": "Closed"
+            }
+          ],
+          "contact": "(603) 555-0123",
+          "additionalInfo": [
+            {
+              "pay": "Pay by card",
+              "parking": "Parking space",
+              "wifi": "Wi-Fi",
+              "access": "Wheelchair accessible",
+              "child": "Child friendly",
+              "pets": "Pets allowed"
+            }
+          ],
+          "accordion": [
+            {
+              "paymentolicy": "This business enforces a cancellation policy on select services and reserves the right to charge a cancellation fee for any no-shows and late cancellations. Note that you may be considered a no-show if you are late for your scheduled appointment, and it is up to the business to decide whether the fee is applied.The cancellation fee is only charged if you violate the terms of the cancellation policy. If you show up to the appointment on time or cancel before the deadline listed on your confirmation page, no cancellation fee is withdrawn from your account. As the fee is not charged for successful appointments, you will be expected to pay for your appointment in full once the service is completed.",
+              "brandsUsed": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quidem porro minus aliquam fugit vero voluptates, magnam cum placeat aperiam. Quis optio beatae dolor labore maiores, sed sit esse voluptate tenetur soluta rem nemo cupiditate animi! Fugit doloribus repellat explicabo."
+            }
+          ]
+        }
+      ],
+      "type": [
+        {
+          "id": 10,
+          "typeOfTreatment": "Manicure gellack French",
+          "price": 65,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 11,
+          "typeOfTreatment": "Manicure, strengthening with gel base, gellack (including removal of old strengthening)",
+          "price": 80,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        },
+        {
+          "id": 12,
+          "typeOfTreatment": "Gel",
+          "price": 50,
+          "time": "30",
+          "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ipsum maxime laborum ex fuga est quibusdam minima eius numquam modi."
+        }
+      ],
+      "team": [
+        {
+          "name": "Gigi",
+          "proffesion": "Nail specialist",
+          "rating": 4,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Katja",
+          "proffesion": "Nail specialist",
+          "rating": 4,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        },
+        {
+          "name": "Bella",
+          "proffesion": "Nail specialist",
+          "rating": 5,
+          "userImg": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/55758/random-user-31.jpg"
+        }
+      ],
+      "place": "Nail Salon Skopje",
+      "img": "https://cdn1.treatwell.net/images/view/v2.i1703543.w720.h480.x8C63EEB6/",
+      "moreImages": [
+        {
+          "url": "https://cdn1.treatwell.net/images/view/v2.i1703543.w720.h480.x8C63EEB6/",
+          "caption": "Image 1"
+        },
+        {
+          "url": "https://www.rd.com/wp-content/uploads/2020/06/GettyImages-1139132195.jpg",
+          "caption": "Image 2"
+        },
+        {
+          "url": "https://cdn.concreteplayground.com/content/uploads/2022/04/Telleish-Pic-1.jpg-Salon.jpeg",
+          "caption": "Image 3"
+        }
+      ],
+      "city": "Kavadarci",
+      "adress": "Ul. Naum Naumovski Borce, Skopje, North Macedonia",
+      "date": "15.08.2023",
+      "time": "14:00 PM",
+      "company": "Nails salon Skopje",
+      "treatment": "Nails",
+      "latitude": 41.9872,
+      "longitude": 21.7734
+    }
+  ],
+  "benefits": [
+    {
+      "imgB": "velnesImages/benefits1.png",
+      "titleB": "Smart Prices",
+      "descB": "Just book last-minute, or off peak"
+    },
+    {
+      "imgB": "velnesImages/benefits2.png",
+      "titleB": "Book 24/7",
+      "descB": "From bed, or bus"
+    },
+    {
+      "imgB": "velnesImages/benefits3.png",
+      "titleB": "Choise of top-rated salons",
+      "descB": "Thousand of venues (and reviews)"
+    }
+  ],
+  "login": [
+    {
+      "email": "testemail1",
+      "password": "pass1",
+      "id": 1,
+      "name": "Kate",
+      "surname": "Wilson",
+      "number": "+39372 777 55 01",
+      "gender": "Female",
+      "birthDate": "28 November 2003",
+      "address": "Kavadarci, North Macedonia",
+      "imgP": "/velnesImages/test1.jpg",
+      "activeMemberships": [
+        {
+          "time": "6 months",
+          "treatment": "Anti-stress Massage: 12 for the price of 10",
+          "sessions": "12",
+          "service": "1",
+          "price": "45",
+          "place": "Hair Creations"
+        }
+      ],
+      "appointments": [
+        {
+          "checked": "{\"5\":true,\"7\":true}",
+          "place": "Hair Creations",
+          "id": 2,
+          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
+          "totalPrice": 145,
+          "selectedEmployee": null,
+          "selectedDate": "2023-10-20T22:00:00.000Z",
+          "selectedTime": "16:22",
+          "appointmentId": 1693754884095
+        },
+        {
+          "checked": "{\"2\":true}",
+          "place": "Nail Creations",
+          "id": 1,
+          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
+          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
+          "totalPrice": 80,
+          "selectedEmployee": "Maria",
+          "selectedDate": "2023-12-29T23:00:00.000Z",
+          "selectedTime": "21:30",
+          "appointmentId": 1693761137595
+        },
+        {
+          "checked": "{\"1\":true,\"2\":true,\"3\":false}",
+          "place": "Nail Creations",
+          "id": 1,
+          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
+          "image": "https://static.wixstatic.com/media/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg/v1/fill/w_640,h_260,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0072d1_ef187eecac0441408e978ce16e57c51f~mv2.jpg",
+          "totalPrice": 145,
+          "selectedEmployee": "Maria",
+          "selectedDate": "2023-11-02T23:00:00.000Z",
+          "selectedTime": "13:39",
+          "appointmentId": 1694000680077
+        },
+        {
+          "checked": "{\"5\":true}",
+          "place": "Hair Creations",
+          "id": 2,
+          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 80,
+          "selectedEmployee": "Tea",
+          "selectedDate": "2023-11-03T23:00:00.000Z",
+          "selectedTime": "12:30",
+          "appointmentId": 1694272386326
+        },
+        {
+          "checked": "{\"4\":true,\"7\":true}",
+          "place": "Hair Creations",
+          "id": 2,
+          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 130,
+          "selectedEmployee": "Tea",
+          "selectedDate": "2023-10-13T22:00:00.000Z",
+          "selectedTime": "14:30",
+          "appointmentId": 1694337565344
+        }
+      ],
+      "paymentMethods": [
+        {
+          "paymentCard": "Master Card",
+          "cardNumber": "**** **** **** 5678",
+          "expiration": "5/22",
+          "cvv": "551"
+        },
+        {
+          "cardNumber": "12243543232",
+          "paymentCard": "",
+          "expiration": "3/21",
+          "cvv": "123"
+        }
+      ]
+    },
+    {
+      "email": "test2",
+      "password": "pass2",
+      "id": 2,
+      "name": "Leona",
+      "surname": "Wilson",
+      "number": "+89099 999 99 00",
+      "gender": "Female",
+      "birthDate": "16 Jule 1994",
+      "address": "Veles, North Macedonia",
+      "imgP": "/velnesImages/test2.jpg",
+      "activeMemberships": [
+        {
+          "time": "6 months",
+          "treatment": "Anti-stress Massage: 12 for the price of 10",
+          "sessions": "10",
+          "service": "1",
+          "price": "80",
+          "place": "Hair Creations"
+        }
+      ],
+      "appointments": [
+        {
+          "checked": "Manicure",
+          "totalPrice": 80,
+          "selectedEmployee": "Tea",
+          "selectedDate": "15.08.2023",
+          "selectedTime": "12:30",
+          "appointmentId": 2
+        },
+        {
+          "checked": "{\"1\":true,\"2\":true}",
+          "place": "Nail Creations",
+          "id": 1,
+          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 145,
+          "selectedEmployee": "Sandra",
+          "selectedDate": "2023-10-26T22:00:00.000Z",
+          "selectedTime": "12:00",
+          "appointmentId": 1694181591074
+        },
+        {
+          "checked": "{\"4\":true,\"6\":true,\"7\":true}",
+          "place": "Hair Creations",
+          "id": 2,
+          "address": "Str. Aminta III, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 180,
+          "selectedEmployee": "Luna",
+          "selectedDate": "2023-12-19T23:00:00.000Z",
+          "selectedTime": "09:00",
+          "appointmentId": 1694182415051
+        },
+        {
+          "checked": "{\"1\":true,\"3\":false,\"7\":true}",
+          "place": "Nail Creations",
+          "id": 1,
+          "address": "Str. Aleksandar Makedonski, Skopje, North Macedonia",
+          "image": "https://hips.hearstapps.com/hmg-prod/images/nails-and-brows-mayfair-1522147896.jpg?crop=1xw:1xh;center,top&resize=980:*",
+          "totalPrice": 130,
+          "selectedEmployee": "Sandra",
+          "selectedDate": "2023-12-22T23:00:00.000Z",
+          "selectedTime": "16:50",
+          "appointmentId": 1694337480193
+        }
+      ],
+      "paymentMethods": [
+        {
+          "paymentCard": "Visa",
+          "cardNumber": "**** **** **** 1234",
+          "expiration": "5/23",
+          "cvv": "552"
+        },
+        {
+          "paymentCard": "",
+          "cardNumber": "131391139183",
+          "expiration": "3/23",
+          "cvv": "2112"
+        }
+      ]
+    }
+  ]
+}
