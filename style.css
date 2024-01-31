@@ -1,0 +1,590 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcd232;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.p-space {
+  padding: 100px 0px;
+}
+
+.container .projects-title {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.card {
+  flex: 0 1 33.333%;
+}
+
+.element {
+  width: 33.333%;
+}
+
+.box-shadow {
+  box-shadow: 1px 0px 16px -1px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 1px 0px 16px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 0px 16px -1px rgba(0, 0, 0, 0.24);
+}
+
+.card-inner {
+  margin-right: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  margin-right: -30px;
+}
+
+.wrapper .card:nth-child(n + 1) {
+  margin-top: 30px;
+}
+
+.card {
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.button-learn-more {
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.button-learn-more a {
+  text-decoration: none;
+  color: white;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.description {
+  background-color: yellow;
+  padding: 5px 10px;
+}
+
+.cards-content h2 {
+  margin: 10px 0px;
+}
+
+.cards-content {
+  padding: 15px;
+}
+
+.fs-10 {
+  font-size: 10px;
+  margin: 20px 0px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heart {
+  color: red;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.filters div:not(:last-child) {
+  border-right: 1px solid grey;
+}
+
+.filters div label span {
+  position: relative;
+  font-size: 20px;
+  transition: 1s;
+  height: 100px;
+  padding: 30px;
+  display: flex;
+}
+.filters div label input[type="checkbox"]:checked ~ span i {
+  display: block;
+  color: #000;
+  align-self: center;
+  font-size: 30px;
+}
+
+.filters div label span i {
+  display: none;
+}
+
+.filters div label span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  background: rgba(225, 225, 225, 0);
+}
+
+.filters div label input[type="checkbox"]:checked ~ span {
+  color: #000;
+  background-color: red;
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .card {
+    flex: 0 1 50%;
+  }
+}
+
+.logo {
+  width: 35px;
+}
+
+.align-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-black {
+  color: #000;
+}
+nav {
+  padding: 20px 60px;
+}
+
+nav .mainMenu {
+  display: flex;
+  list-style: none;
+}
+
+nav .mainMenu li a {
+  text-decoration: none;
+}
+
+nav .nav-link {
+  margin-right: 50px;
+}
+
+nav .openMenu {
+  padding: 20px;
+  font-size: 30px;
+}
+
+nav .closeMenu {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.caption {
+  font-size: 7px;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 800px) {
+  .container {
+    overflow: hidden;
+    padding: 80px 20px;
+    width: 100%;
+  }
+  .form-inner {
+    margin-right: 0;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  form {
+    padding: 0;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar i {
+    font-size: 30px;
+  }
+
+  .btn-send,
+  nav .mainMenu {
+    display: none;
+  }
+
+  .btn-mobile {
+    margin-top: 20px;
+  }
+  .w-50 {
+    flex-wrap: wrap;
+  }
+
+  .element,
+  .w-50,
+  form,
+  html,
+  body {
+    width: 100%;
+  }
+  span {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav {
+    padding: 20px;
+  }
+
+  nav .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    flex-direction: column;
+    background-color: rgb(48, 47, 47);
+    transition: top 1s ease;
+    padding: 100px 20px;
+  }
+
+  nav ul li {
+    margin-bottom: 30px;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+  nav .closeMenu {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  nav .openMenu,
+  nav .closeMenu,
+  .btn-mobile,
+  .navbar i {
+    display: block;
+  }
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white !important;
+  text-decoration: none;
+}
+
+nav ul li a {
+  transition: 0.5s ease;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.btn-hover:hover {
+  background-color: darkred;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/banner.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.projects-title,
+.hire-students,
+.title h1 {
+  background: linear-gradient(
+    to right,
+    hsl(0, 0%, 30%) 0,
+    hsl(0, 0%, 100%) 50%,
+    hsl(0, 0%, 30%) 50%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  color: hsl(0, 0%, 28%);
+}
+.title h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  80% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+.form-inner {
+  margin-right: 30px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.color-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex-form,
+.select-btn,
+.options li {
+  display: flex;
+}
+
+.wrapper-form {
+  margin-right: -20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-mobile,
+.btn-send {
+  border: 1px solid red;
+  padding: 10px 20px;
+  margin-top: 25px;
+  height: 55px;
+}
+
+input,
+.select-btn {
+  font-style: italic;
+  margin: 8px 0px;
+  height: 55px;
+  padding: 0 20px;
+  border: 1px solid lightgrey;
+  background-color: white;
+}
+
+.b-radius-5 {
+  border-radius: 5px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+.content {
+  height: 200px;
+  overflow: hidden;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+}
+
+.select-btn,
+.content,
+.btn-mobile,
+.btn-send,
+.select-btn,
+.options li,
+.filters div label,
+button,
+nav .closeMenu,
+nav .openMenu,
+#load-more {
+  font-style: normal;
+  cursor: pointer;
+}
+
+.select-btn i {
+  transition: 0.3s linear;
+}
+
+.toggle.active .select-btn i {
+  transform: rotate(-180deg);
+}
+
+.options li {
+  height: 50px;
+  padding: 0 15px;
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+}
+
+.options li:hover {
+  background-color: lightyellow;
+}
+
+.select-btn,
+.options li {
+  align-items: center;
+}
+
+.toggle.active .content,
+.success.display-success,
+.error.display-error,
+.caption {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .navbar i,
+  .btn-mobile {
+    display: none;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.error {
+  color: red;
+  background-color: #fde8ec;
+}
+
+.error.display-error {
+  margin-top: 20px;
+  transform: translateY(-20px);
+  font-weight: bold;
+  border-radius: 5px;
+}
+.success {
+  color: green;
+  background-color: #d2ffd2;
+}
+
+@media (max-width: 425px) {
+  .card {
+    flex: 0 1 100%;
+  }
+
+  .container {
+    overflow: hidden;
+    padding: 80px 20px;
+    width: 100%;
+  }
+
+  h3 {
+    margin-bottom: 50px;
+  }
+
+  .form-inner {
+    margin-right: 0;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  #load-more {
+    display: block;
+  }
+
+  #load-more {
+    margin-top: 20px;
+    border: 1px solid red;
+  }
+
+  #load-more:hover {
+    background-color: darkred;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card:nth-child(1) {
+    display: block;
+  }
+
+  .card:nth-child(2) {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  #load-more {
+    display: none;
+  }
+}
